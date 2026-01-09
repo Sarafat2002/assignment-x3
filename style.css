@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -36,14 +35,19 @@
     border-radius: 3px;
     border: none;
     font-family: "Inter", sans-serif;
+    cursor: pointer;
 }
+.navigation__menu_btn:hover{
+    background-color: #5318df5d;
+}
+
 
 /*hero section */
 
 .hero__section {
     display: flex;
-    justify-content: center;  
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
     background-image: url(../assets/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,18 +65,28 @@
 }
 
 .hero__section_bt1 {
+    display: flex;
     color: #30B868;
     padding: 10px 30px;
     background-color: #fff;
     border-radius: 40px;
     border: none;
     font-family: "Inter", sans-serif;
+    gap: 15px;
+    align-items: center;
 }
-.ciccle_x1{
-    height: 10px;
-    width: 10px;
+.hero__section_bt1:hover{
+    background-color: #e5fff05d;
+}
+
+
+.ciccle_x1 {
+    height: 12px;
+    width: 12px;
     border-radius: 50%;
-    background-color: #d407a1;
+    background-color: #30B868;
+    display: inline-block;
+    box-shadow: 0 0 5px 5px rgba(38, 219, 107, 0.9);
 }
 
 .header__section_heading {
@@ -92,9 +106,10 @@
     line-height: 40px;
     font-family: "Inter", sans-serif;
 }
-.hero__section_2button{
- display: flex;
- gap: 15px;
+
+.hero__section_2button {
+    display: flex;
+    gap: 15px;
 }
 
 .hero__section_bt2 {
@@ -105,7 +120,16 @@
     margin-top: 20px;
     border-radius: 3px;
     font-family: "Inter", sans-serif;
+    cursor: pointer;
 }
+.hero__section_bt2:hover{
+    background-color: #b8e7cb5d;
+}
+.btn_play{
+    display: inline-block;
+    color: #fff;
+}
+
 
 .hero__section_bt3 {
     padding: 10px 30px;
@@ -115,55 +139,80 @@
     background: none;
     color: #ffff;
     font-family: "Inter", sans-serif;
+    cursor: pointer;
 }
-.cart__main_section{
+.hero__section_bt3:hover{
+    background-color: #b8e7cb5d;
+}
+
+.cart__main_section {
     margin-top: 100px;
     text-align: center;
 }
-.cart__main_section h2{
+
+.cart__main_section h2 {
     color: #001931;
     font-size: 48px;
     font-family: "Inter", sans-serif;
 }
-.cart__main_section p{
+
+.cart__main_section p {
     color: #627382;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     padding-top: 20px;
 }
 
-.cart__section{
+.cart__section {
     display: flex;
     justify-content: space-around;
     margin-right: 300px;
     margin-left: 300px;
     padding-top: 100px;
 }
-.mini__card1{
-    width: 300px;
-    height: 200px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-     text-align: center;
-     align-items: center;
+
+.cart__section h4{
+    padding-top: 10px;
 }
-.mini__card2{
+
+.mini__card1 {
     width: 300px;
     height: 200px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-     text-align: center;
-     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-items: center;
 }
-.mini__card3{
+
+.mini__card2 {
     width: 300px;
     height: 200px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-     text-align: center;
-     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-items: center;
 }
-.mini__card4{
+
+.mini__card3 {
     width: 300px;
     height: 200px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-     text-align: center;
-     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-items: center;
+}
+
+.mini__card4 {
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-items: center;
+}
+
+.cart__circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: inline-block;
+    padding-top: 10px;
+    margin-top: 60px;
 }
