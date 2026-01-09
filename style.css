@@ -74,6 +74,7 @@
     font-family: "Inter", sans-serif;
     gap: 15px;
     align-items: center;
+    cursor: pointer;
 }
 .hero__section_bt1:hover{
     background-color: #e5fff05d;
