@@ -121,6 +121,10 @@
     border-radius: 3px;
     font-family: "Inter", sans-serif;
     cursor: pointer;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
 }
 .hero__section_bt2:hover{
     background-color: #b8e7cb5d;
@@ -140,14 +144,22 @@
     color: #ffff;
     font-family: "Inter", sans-serif;
     cursor: pointer;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
 }
+
 .hero__section_bt3:hover{
     background-color: #b8e7cb5d;
 }
 
 .cart__main_section {
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
+    background-color: #F7F6F2;
+    max-height: 600px;
+    width: 100%;
 }
 
 .cart__main_section h2 {
@@ -166,18 +178,23 @@
 .cart__section {
     display: flex;
     justify-content: space-around;
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 250px;
+    margin-left: 250px;
     padding-top: 100px;
 }
 
 .cart__section h4{
-    padding-top: 10px;
+    padding-top: 15px;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+.cart__section p{
+  font-family: "Inter", sans-serif;
 }
 
 .mini__card1 {
     width: 300px;
-    height: 200px;
+    height: 270px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     align-items: center;
@@ -185,7 +202,7 @@
 
 .mini__card2 {
     width: 300px;
-    height: 200px;
+    height: 270px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     align-items: center;
@@ -193,7 +210,7 @@
 
 .mini__card3 {
     width: 300px;
-    height: 200px;
+    height: 270px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     align-items: center;
@@ -201,7 +218,7 @@
 
 .mini__card4 {
     width: 300px;
-    height: 200px;
+    height: 270px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     align-items: center;
@@ -214,5 +231,128 @@
     background-color: #F95555;
     display: inline-block;
     padding-top: 10px;
-    margin-top: 60px;
+    margin-top: 80px;
+}
+
+.brain__section{
+    display: flex;
+    padding-top: 100px;
+    gap: 50px;
+
+}
+.brain__section_img{
+    margin-left: 270px;
+}
+.brain__section_text{
+    padding-top: 100px;
+    font-family: "Inter", sans-serif;
+}
+.brain__section_text h4{
+    color: #30B868;
+    font-size: 20px;
+}
+.brain__section_text h2{
+    color: #001931;
+    font-size: 48px;
+    padding-top: 10px;
+}
+.brain_pera{
+    color: #001931;
+    padding-top: 20px;
+}
+.brain__botom{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+.botom_img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+.brain__botom p{
+  padding-top: 10px;
+}
+
+.botom__cartx{
+    background-color: #F7F6F2;
+    max-height: 500px;
+    max-width: 1400px;
+    margin-left: 260px;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+.botom__cartx h2{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.botom_p1 {
+    padding-top: 20px;
+    color: #627382;
+
+}
+.botom_p2 {
+    padding-top: 20px;
+    color: #627382;
+    padding-bottom: 30px;
+
+}
+.botom_btn{
+    color: #ffff;
+    background-color: #30B868;
+    padding: 11px 40px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+.botom__cartx button:hover{
+    background-color: #866ad35d;
+}
+
+
+.main__footer{
+    background-color: #001931;
+    max-height: 600px;
+}
+
+.footer_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.footer__img{
+  padding-left: 260px;
+  padding-top: 100px;
+ 
+}
+.footer__link{
+    padding-right: 300px;
+    padding-top: 100px;
+    
+}
+.footer__link h4{
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+.link_icon i{
+    color:#fff;
+    margin-top: 15px;
+}
+.hr_tag{
+    width:80%;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+.last_pera{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
